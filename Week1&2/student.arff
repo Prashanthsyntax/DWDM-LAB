@@ -1,0 +1,13 @@
+@relation student
+
+@attribute id numeric
+@attribute name string
+@attribute age numeric
+@attribute marks numeric
+@attribute result {pass,fail}
+
+@data
+1,Ram,20,85,pass
+2,Sita,21,70,pass
+3,Ravi,19,40,fail
+4,Anu,22,50,fail
